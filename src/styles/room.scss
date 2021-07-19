@@ -34,7 +34,7 @@
             span {
                 margin-left: 16px;
                 background: #e559f9;
-                border-radius: 999px;
+                border-radius: 9999px;
                 padding: 8px 16px;
                 color: #FFF;
                 font-weight: 500;
@@ -58,23 +58,25 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-top: 16px;
-            }
+                margin-top: 16px;            
 
-            span {
-                font-size: 14px;
-                color: #737380;
-                font-weight: 500;
-            }
+                span {
+                    font-size: 14px;
+                    color: #737380;
+                    font-weight: 500;
+                
 
-            button {
-                background: transparent;
-                border: 0;
-                color: #835AFD;
-                text-decoration: underline;
-                font-size: 14px;
-                font-weight: 500;
-                cursor: pointer;
+                    button {
+                        background: transparent;
+                        border: 0;
+                        color: #835AFD;
+                        text-decoration: underline;
+                        font-size: 14px;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
+
+                }
             }
         }
     }
