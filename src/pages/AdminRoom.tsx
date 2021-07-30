@@ -37,7 +37,7 @@ type RoomParams = {
     id: string;
 }
 
-export function Room(){
+export function AdminRoom(){
     const { user } = useAuth();
     const params = useParams<RoomParams>();
     const [newQuestion, setNewQuestion] = useState('');  
@@ -76,10 +76,13 @@ export function Room(){
             <header>
                 <div className="content">
                     <img src={logoImg} alt="Letmeask" />
-                    <RoomCode code={roomId} />
+                    <div>
+                        <RoomCode code={roomId} />
+                        <Button isOutlined>Encerrar sala</Button>
+                    </div>
+                    
                 </div>
             </header>
-
             <main>
                 <div className="room-title">
                     <h1>Sala {title}</h1>
