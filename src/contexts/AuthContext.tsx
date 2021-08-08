@@ -40,7 +40,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
         })
 
         return () => {
-        unsubscribe();
+            unsubscribe();
         }
     }, [])
 
